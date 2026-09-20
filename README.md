@@ -7,7 +7,8 @@ This project is one self-contained HTML page for a tiny, playful color classifie
 1. Open `one-pixel.html` directly in Chrome, Edge, Safari, or Firefox.
 2. Choose a color with the color picker, a quick swatch, or the warmth slider.
 3. Click **Classify this color** and read the prediction, color-distance scores, learned weights, and reason.
-4. Click a training example to test it, or click **Shuffle example meanings** to see how changing the examples changes the result.
+4. Give the model your own judgment by choosing `delight`, `angry`, `stress`, or `depress`. Your color and label are added as a new training example.
+5. Click a training example to test it, or click **Shuffle example meanings** to see how changing the examples changes the result.
 
 There is no build step, API key, paid service, or installation required. The page works offline. A local server is optional:
 
