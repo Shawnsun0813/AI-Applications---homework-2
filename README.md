@@ -1,26 +1,20 @@
-# CPSC 1710 Labs
+# Color Mood Classifier
 
-Student-facing assignments and starter materials for CPSC 1710, Fall 2026.
+This project is one self-contained HTML page for a tiny, playful color classifier. It compares a visitor's chosen color with four examples and predicts one of four possible reactions: `delight`, `angry`, `stress`, or `depress`.
 
-## Labs
+## Open and test it
 
-- [Lab 1: Meet a deep-learning notebook](lab-01/)
-- [Lab 2: From one pixel to your classifier](lab-02/)
+1. Open `one-pixel.html` directly in Chrome, Edge, Safari, or Firefox.
+2. Choose a color with the color picker, a quick swatch, or the warmth slider.
+3. Click **Classify this color** and read the prediction, color-distance scores, learned weights, and reason.
+4. Click a training example to test it, or click **Shuffle example meanings** to see how changing the examples changes the result.
 
-Use the [live course hub](https://xiuyechen.github.io/cpsc1710-labs/) for the simplest experience. Each assignment is available as a webpage and a printable PDF.
-
-## Opening the files
-
-The HTML files have no build step. After cloning, open `index.html` directly in Chrome, Safari, or Firefox. Avoid VS Code's **Open Preview** for these files: its internal `file+.vscode-resource` links do not work as normal browser addresses.
-
-You can also serve the repository locally:
+There is no build step, API key, paid service, or installation required. The page works offline. A local server is optional:
 
 ```bash
-python3 -m http.server 8000
+python -m http.server 8000
 ```
 
-Then visit `http://localhost:8000/`.
+Then open `http://localhost:8000/one-pixel.html`.
 
-## Credits
-
-Materials are by [Xiuye Chen](https://github.com/xiuyechen), developed with Codex, and shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The emotion labels are intentionally subjective examples, not facts about how people must feel. Personal mood, memories, culture, and context can all change a color reaction.
